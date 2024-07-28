@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--slate-300);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
+.frame {
+    width: 90%;
+    max-width: 290px;
+    background-color: var(--white);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Space between frame and footer */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.description {
+    padding: 10px;
+    text-align: center;
+}
+
+.description h1 {
+    font-size: 22px;
+    color: var(--slate-900);
+    font-weight: 700;
+}
+
+.description .description-text {
+    font-size: 15px;
+    color: var(--slate-500);
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 16px; /* Adjusted padding for consistency */
+    width: 100%;
+}
+
+footer .footer {
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.footer a {
+    color: hsl(265, 44%, 50%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    footer .footer {
+        font-size: 14px; /* Larger font size for larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    footer .footer {
+        font-size: 16px; /* Larger font size for even larger screens */
+    }
+}
