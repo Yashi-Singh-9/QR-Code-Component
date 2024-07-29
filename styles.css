@@ -8,7 +8,7 @@
 
 body {
     background-color: var(--slate-300);
-    height: 105vh;
+    height: 103vh;
     margin: 0;
     display: flex;
     flex-direction: column;
