@@ -65,7 +65,7 @@ header img {
 .description .description-text {
     font-size: 15px;
     color: var(--slate-500);
-    padding: 15px;
+    padding: 10px;
 }
 
 footer {
