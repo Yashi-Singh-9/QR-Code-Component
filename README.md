@@ -1,59 +1,79 @@
-<h1>Frontend Mentor - QR Code Component Solution</h1>
+# Frontend Mentor - QR Code Component Solution
 
-<p>This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-</p>
+## Description
 
-<h2>Table of Contents</h2>
+This project is a simple and elegant QR Code Component challenge provided by [Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). It is a responsive webpage that displays a QR code, which links to the Frontend Mentor website. The purpose of this challenge is to enhance front-end development skills by building a straightforward yet visually appealing UI component.
 
-<ol>
-    <li> [Overview](#overview)</li>
-        <ul><li> [Screenshot](#screenshot)</li>
-        <li> [Links](#links)</li></ul>
-    <li> [My process](#my-process)</li>
-        <ul><li> [Built with](#built-with)</li></ul>
-    <li> [Author](#author)</li>
-    <li> [Acknowledgments](#acknowledgments)</li>
-</ol>
+You can view the **live demo** of this project [here](https://qr-code-component-by-yashi.netlify.app/).
 
-<h2>Overview</h2>
+## Badges
 
-<h3>Screenshot</h3>
+![GitLab](https://img.shields.io/badge/gitlab-project-blue) ![Frontend Mentor](https://img.shields.io/badge/frontend--mentor-challenge-yellow)
 
-![Desktop-Preview][images/Desktop-Preview.png]
+## Visuals
 
-![Mobile-Preview][images/Mobile-Preview.png]
+Here is a preview of the QR Code Component:
 
-<h3>Links</h3>
+![QR Code Component](images/Desktop-Preview.png)
 
-<p>- Live Site URL: </p>
+![QR Code Component](images/Mobile-Preview.png)
 
-[Add live site URL here](https://your-live-site-url.com)
+## Installation
 
-<h2>My Process</h2>
+To run this project locally, follow these steps:
 
-<h3>Built With</h3>
+1. Clone the repository:
 
-<p>- Semantic HTML5 Markup</p>
-<p>- CSS custom properties</p>
-<p>- Flexbox</p>
-<p>- Mobile-first workflow</p>
+    ```bash
+    git clone https://gitlab.com/Yashi-Singh-9/qr-code-component.git
+    ```
 
-<h2>Author</h2>
+2. Navigate to the project directory:
 
-<p>Frontend Mentor -</p>
+    ```bash
+    cd qr-code-component
+    ```
 
-[Yashi-Singh-1](<p>Frontend Mentor -</p> [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-)
+3. Open the `index.html` file in your browser:
 
-<p>LinkedIn -</p> 
+    ```bash
+    open index.html
+    ```
 
-[Yashi Singh](www.linkedin.com/in/yashi-singh-b4143a246)
+## Usage
 
-<h2>Acknowledgments</h2>
+The QR Code Component is a static webpage. Simply open the `index.html` file in any modern web browser, and you'll see the QR code that links to the Frontend Mentor website. This component can be embedded into other projects or used as a standalone page.
 
-<p>I would like to extend my heartfelt thanks to the following individuals and resources for their invaluable support and inspiration:</p>
+## Support
 
-<ol>
-<li> <a href="https://www.frontendmentor.io/challenges"><b>Frontend Mentor</a>:</b> For providing the challenge and helping me improve my front-end skills with practical projects.<li>
-<li><b>My Peers and Mentors:</b> For their constructive feedback and encouragement throughout the development process.</li>
-</ol>
+If you have any questions or run into any issues, feel free to reach out:
+
+- [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+- [Yashi Singh's LinkedIn](https://www.linkedin.com/in/yashi-singh-b4143a246)
+
+## Roadmap
+
+Currently, this project is complete as per the challenge requirements. However, future enhancements could include:
+
+- Adding animations to the QR code.
+- Enhancing the design with additional styling or visual effects.
+- Making the component interactive by adding JavaScript functionality.
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve this project, feel free to fork the repository and submit a pull request. Here’s how you can do it:
+
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature-branch`).
+3. Make your modifications and commit them (`git commit -m 'Add a new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request to the main branch.
+
+## Authors and Acknowledgment
+
+- **Author:** Yashi Singh
+- **Acknowledgment:** Special thanks to [Frontend Mentor](https://www.frontendmentor.io) for providing this challenge and resources to improve front-end development skills.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
