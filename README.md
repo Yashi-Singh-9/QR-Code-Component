@@ -9,6 +9,9 @@ You can view the **live demo** of this project [here](https://qr-code-component-
 ## Badges
 
 ![GitLab](https://img.shields.io/badge/gitlab-project-blue) ![Frontend Mentor](https://img.shields.io/badge/frontend--mentor-challenge-yellow)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/16e57516-733c-4d71-8b04-4107bc317285/deploy-status)](https://app.netlify.com/sites/qr-code-component-by-yashi/deploys)
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Last Commit](https://img.shields.io/gitlab/last-commit/Yashi-Singh-9/qr-code-component)
 
 ## Visuals
 
