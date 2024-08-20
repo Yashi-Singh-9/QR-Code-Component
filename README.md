@@ -4,7 +4,7 @@
 
 This project is a simple and elegant QR Code Component challenge provided by [Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). It is a responsive webpage that displays a QR code, which links to the Frontend Mentor website. The purpose of this challenge is to enhance front-end development skills by building a straightforward yet visually appealing UI component.
 
-##Live Demo
+## Live Demo
 
 You can view the **live demo** of this project [here](https://qr-code-component-by-yashi.netlify.app/).
 
