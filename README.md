@@ -30,13 +30,13 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://gitlab.com/Yashi-Singh-9/qr-code-component.git
+    git clone https://github.com/Yashi-Singh-9/QR-Code-Component.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd qr-code-component
+    cd QR-Code-Component
     ```
 
 3. Open the `index.html` file in your browser:
