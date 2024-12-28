@@ -17,9 +17,12 @@
 
 ## Technologies Used
 
-✨✨✨ - **HTML5:** For structuring the content.
+✨✨✨ 
+- **HTML5:** For structuring the content.
 - **SCSS:** For enhanced and modular styling.
-- **Bootstrap:** For quick and responsive layout design. ✨✨✨
+- **Bootstrap:** For quick and responsive layout design.
+  
+✨✨✨
 
 ## Visuals
 
@@ -29,7 +32,7 @@
 ![Desktop Preview](images/Desktop-Preview.png)
 
 ### Mobile Preview
-![Mobile Preview](images/Mobile-Preview.png)
+<img src="images/Mobile-Preview.png" height="750">
 
 ## How to Run Locally
 
@@ -76,6 +79,52 @@ QR-Code-Component/
 - Adding hover and focus effects to make the component more interactive.
 - Including animations for the QR code to enhance user engagement.
 - Extending the design with a dark mode toggle.
+
+## SCSS Installation and Setup
+
+✨✨✨ Follow these steps to install and run SCSS for this project: ✨✨✨
+
+### Prerequisites
+- **Node.js and npm:** Ensure you have Node.js and npm installed on your system. If not, download and install them from [Node.js Official Website](https://nodejs.org/).
+
+### Installation Steps
+
+1. **Navigate to the Project Directory:**
+    ```bash
+    cd QR-Code-Component
+    ```
+
+2. **Initialize npm (if not already initialized):**
+    If you don't have a `package.json` file in your project, initialize npm by running:
+    ```bash
+    npm init -y
+    ```
+
+3. **Install SCSS (Sass):**
+    Use npm to install the SCSS preprocessor:
+    ```bash
+    npm install sass --save-dev
+    ```
+
+### Running SCSS
+
+1. **Compile SCSS to CSS:**
+    To compile SCSS into CSS, run the following command:
+    ```bash
+    npx sass styles.scss styles.css
+    ```
+
+2. **Watch for Changes (Optional):**
+    If you want to watch the SCSS file for changes and automatically compile it, use:
+    ```bash
+    npx sass --watch styles.scss:styles.css
+    ```
+
+3. **Link the Compiled CSS in Your HTML:**
+    Ensure the compiled `styles.css` is linked in your `index.html`:
+    ```html
+    <link rel="stylesheet" href="styles.css">
+    ```
 
 ## Contributing
 
