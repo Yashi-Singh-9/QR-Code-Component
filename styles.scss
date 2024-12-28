@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+$white: hsl(0, 0%, 100%);
+$slate-300: hsl(212, 45%, 89%);
+$slate-500: hsl(216, 15%, 48%);
+$slate-900: hsl(218, 44%, 22%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400; 
+    font-size: 1rem;
+    background-color: $slate-300;
+    height: 100vh;
+}
+
+.frame{
+    max-width: 400px;
+    width: 100%;
+    background-color: $white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+
+    @media (max-width: 425px) {
+        width: 90%;
+    }
+    
+    .description{
+        h3{
+            font-weight: 700;
+            color: $slate-900;
+        }
+
+        p{
+            color: $slate-500;
+            font-size: 1.15rem;
+        }
+    }
+}
+
+footer{
+    color: $slate-900;
+
+    a,
+    a:visited{
+        color: darken($slate-500, 50%);
+        font-style: italic;
+    }
+}

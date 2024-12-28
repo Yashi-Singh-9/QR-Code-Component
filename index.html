@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Improve your front-end skills with hands-on projects by visiting Frontend Mentor. Scan the QR code to learn more." />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Bootstrap Link -->    
+    <link rel="stylesheet" href="styles.css"> <!-- CSS Link -->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon"> <!-- Icon -->
+
     <title>QR Code Component</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <main class="frame">
-        <header>
-            <img src="images/image-qr-code.png" alt="QR code leading to Frontend Mentor website" />
-        </header>
-        <section class="description">
-            <h1>Improve your front-end skills by building projects</h1>
-            <p class="description-text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+<body class="d-flex flex-column align-items-center justify-content-center">
+    <main class="frame d-flex flex-column p-4 mb-3 rounded-4">
+        <img src="images/image-qr-code.png" alt="QR code leading to Frontend Mentor website" class="object-fit-cover rounded-2 mb-3" />
+        <section class="description p-3 text-center">
+            <h3>Improve your front-end skills by building projects</h3>
+            <p class="description-text mt-4">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
         </section>
     </main>
-    <footer>
-        <p class="footer">Challenge by <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank" rel="noopener noreferrer" aria-label="Frontend Mentor website">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/yashi-singh-b4143a246" aria-label="Yashi Singh's LinkedIn profile">Yashi Singh</a>.</p>
+    <footer class="text-center p-2">
+        Challenge by <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank" class="text-decoration-none">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/yashi-singh-b4143a246" class="text-decoration-none">Yashi Singh</a>.
     </footer>
 </body>
 </html>

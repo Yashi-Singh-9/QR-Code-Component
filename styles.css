@@ -1,97 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--slate-300);
-    height: 103vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Outfit', sans-serif;
-}
-
-:root {
-    --white: hsl(0, 0%, 100%);
-    --slate-300: hsl(212, 45%, 89%);
-    --slate-500: hsl(216, 15%, 48%);
-    --slate-900: hsl(218, 44%, 22%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
 }
 
 .frame {
+  max-width: 400px;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 425px) {
+  .frame {
     width: 90%;
-    max-width: 300px;
-    background-color: var(--white);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px; 
+  }
 }
-
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+.frame .description h3 {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
 }
-
-header img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
-.description {
-    padding: 10px;
-    text-align: center;
-}
-
-.description h1 {
-    font-size: 22px;
-    color: var(--slate-900);
-    font-weight: 700;
-}
-
-.description .description-text {
-    font-size: 15px;
-    color: var(--slate-500);
-    padding: 10px;
+.frame .description p {
+  color: hsl(216, 15%, 48%);
+  font-size: 1.15rem;
 }
 
 footer {
-    text-align: center;
-    padding: 16px; /* Adjusted padding for consistency */
-    width: 100%;
+  color: hsl(218, 44%, 22%);
 }
-
-footer .footer {
-    font-size: 16px;
-    font-family: "Hanken Grotesk", sans-serif;
-}
-
-.footer a {
-    color: hsl(265, 44%, 50%);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-@media (min-width: 768px) {
-    footer .footer {
-        font-size: 14px; /* Larger font size for larger screens */
-    }
-}
-
-@media (min-width: 1024px) {
-    footer .footer {
-        font-size: 16px; /* Larger font size for even larger screens */
-    }
-}
+footer a,
+footer a:visited {
+  color: black;
+  font-style: italic;
+}/*# sourceMappingURL=styles.css.map */
